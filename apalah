@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Product Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .category {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .category:last-child {
+            border-bottom: none;
+        }
+        h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .product {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .product-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .product-price {
+            color: #e74c3c;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Product Store</h1>
+        
+        <div class="category">
+            <h2>Panel Packages</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">PANEL 1GB</div>
+                    <div class="product-price">1K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 2GB</div>
+                    <div class="product-price">2K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 3GB</div>
+                    <div class="product-price">3K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 4GB</div>
+                    <div class="product-price">4K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 5GB</div>
+                    <div class="product-price">5K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 6GB</div>
+                    <div class="product-price">6K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 7GB</div>
+                    <div class="product-price">7K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 8GB</div>
+                    <div class="product-price">8K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 9GB</div>
+                    <div class="product-price">9K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL 10GB</div>
+                    <div class="product-price">10K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PANEL UNLI</div>
+                    <div class="product-price">11K</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="category">
+            <h2>Panel Types</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">RESSELER PANEL</div>
+                    <div class="product-price">3K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">ADMIN PANEL</div>
+                    <div class="product-price">5K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">OWNER PANEL</div>
+                    <div class="product-price">7K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PARTNER PANEL</div>
+                    <div class="product-price">10K</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="category">
+            <h2>Bug Services</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">JASBUG</div>
+                    <div class="product-price">1K 1NOMER</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">MURBUG</div>
+                    <div class="product-price">3K PERMANEN</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">PARTENER PRIBADI</div>
+                    <div class="product-price">110K-120K</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="category">
+            <h2>VPS Services</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">VPS R16C4</div>
+                    <div class="product-price">45K</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="category">
+            <h2>Script Collections</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">SC VOID VIA TELE</div>
+                    <div class="product-price">50K-200K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC STELLAR LIGHT</div>
+                    <div class="product-price">35K-150K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC IMVIER INVINITY</div>
+                    <div class="product-price">40K-250K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC XCERBERUS</div>
+                    <div class="product-price">40K-250K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC SPECTRA</div>
+                    <div class="product-price">10K-60K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC NOESZ</div>
+                    <div class="product-price">30K-55K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC DEATH NOTE</div>
+                    <div class="product-price">25K-180K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC THENDER VORTEX</div>
+                    <div class="product-price">40K-200K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC HEVAIS HADES</div>
+                    <div class="product-price">70K-300K</div>
+                </div>
+                <div class="product">
+                    <div class="product-name">SC TYRANT</div>
+                    <div class="product-price">35K-100K</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <h3>Contact Us for Purchases</h3>
+            <p>Please contact our customer service for ordering information</p>
+            <!-- Replace with your actual contact information -->
+            <p>WhatsApp: [Your WhatsApp Number]</p>
+            <p>Telegram: [Your Telegram Username]</p>
+        </div>
+    </div>
+</body>
+</html>
